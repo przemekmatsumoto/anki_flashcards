@@ -1,56 +1,57 @@
-동물	zwierzę	animal
-애완동물	zwierzę domowe	pet
-야생동물	dzikie zwierzę	wild animal
-농장동물	zwierzę gospodarskie	farm animal
+가족	rodzina	family
+부모	rodzice	parents
+부모님	rodzice (honoryfikatywnie)	parents (honorific)
 
-고양이	kot	cat
-강아지	piesek / szczeniak	puppy
-개	pies	dog
-쥐	mysz	mouse
-토끼	królik	rabbit
-햄스터	chomik	hamster
-새	ptak	bird
-앵무새	papuga	parrot
-물고기	ryba	fish
-거북이	żółw	turtle
-뱀	wąż	snake
-도마뱀	jaszczurka	lizard
+아버지	ojciec (formalnie)	father
+아빠	tata (potocznie)	dad
+어머니	matka (formalnie)	mother
+엄마	mama (potocznie)	mom
 
-곰	niedźwiedź	bear
-호랑이	tygrys	tiger
-사자	lew	lion
-여우	lis	fox
-늑대	wilk	wolf
-코끼리	słoń	elephant
-기린	żyrafa	giraffe
-원숭이	małpa	monkey
-하마	hipopotam	hippopotamus
-코뿔소	nosorożec	rhinoceros
-표범	lampart	leopard
+형	starszy brat (dla mężczyzny)	older brother (for male)
+오빠	starszy brat (dla kobiety)	older brother (for female)
+누나	starsza siostra (dla mężczyzny)	older sister (for male)
+언니	starsza siostra (dla kobiety)	older sister (for female)
+남동생	młodszy brat	younger brother
+여동생	młodsza siostra	younger sister
+형제	bracia	brothers
+자매	siostry	sisters
+형제자매	rodzeństwo	siblings
 
-닭	kura	chicken
-병아리	pisklę	chick
-오리	kaczka	duck
-칠면조	indyk	turkey
-소	krowa	cow
-돼지	świnia	pig
-양	owca	sheep
-염소	koza	goat
-말	koń	horse
+아들	syn	son
+딸	córka	daughter
+아이	dziecko	child
+쌍둥이	bliźniaki	twins
 
-벌	pszczoła	bee
-개미	mrówka	ant
-파리	mucha	fly
-모기	komar	mosquito
-나비	motyl	butterfly
-거미	pająk	spider
-매	sokół	falcon
-독수리	orzeł	eagle
-참새	wróbel	sparrow
-비둘기	gołąb	pigeon
+할아버지	dziadek	grandfather
+할머니	babcia	grandmother
+외할아버지	dziadek (ze strony matki)	maternal grandfather
+외할머니	babcia (ze strony matki)	maternal grandmother
 
-고래	wieloryb	whale
-상어	rekin	shark
-해파리	meduza	jellyfish
-문어	ośmiornica	octopus
-게	krab	crab
+삼촌	wujek (brat ojca lub matki)	uncle
+고모	siostra ojca	aunt (father’s sister)
+이모	siostra matki	aunt (mother’s sister)
+고모부	mąż siostry ojca	uncle-in-law (father’s side)
+이모부	mąż siostry matki	uncle-in-law (mother’s side)
+외삼촌	brat matki	maternal uncle
+작은아버지	młodszy brat ojca (żonaty)	younger uncle (father’s side)
+큰아버지	starszy brat ojca (żonaty)	older uncle (father’s side)
+작은어머니	żona młodszego brata ojca	younger uncle’s wife
+큰어머니	żona starszego brata ojca	older uncle’s wife
+
+사촌	kuzyn / kuzynka	cousin
+조카	siostrzeniec / bratanek	nephew
+조카딸	siostrzenica / bratanica	niece
+
+남편	mąż	husband
+아내	żona	wife
+부인	żona (honoryfikatywnie)	wife (honorific)
+신랑	pan młody	groom
+신부	panna młoda	bride
+시부모	teściowie (rodzice męża)	in-laws (husband’s parents)
+장인어른	teść (ojciec żony)	father-in-law (wife’s side)
+장모님	teściowa (matka żony)	mother-in-law (wife’s side)
+며느리	synowa	daughter-in-law
+사위	zięć	son-in-law
+
+가족사진	zdjęcie rodzinne	family photo
+가정	rodzina (jako dom, instytucja)	home / household

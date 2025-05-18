@@ -2,7 +2,7 @@
 
 # Generator kart Anki dla koreańskiego z pełną obsługą Twojego formatu
 input_file = "input.txt"
-output_file = "THNK_ABOUT_NAME.csv"
+output_file = "korean_flashcards/test.csv"
 
 def sanitize(text)
   text.to_s.gsub(/"/, '""').strip

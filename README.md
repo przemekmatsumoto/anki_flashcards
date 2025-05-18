@@ -14,3 +14,6 @@ To run this script you need installed ruby ~> 3.3.5
 input file should contain data in format:
 back front(polish) front(english)
 남편  mąż	        husband
+
+# Korean flashcard catalogue
+this catalogue contains ready to use Korean sets

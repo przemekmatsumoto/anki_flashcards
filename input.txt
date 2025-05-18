@@ -1,0 +1,56 @@
+동물	zwierzę	animal
+애완동물	zwierzę domowe	pet
+야생동물	dzikie zwierzę	wild animal
+농장동물	zwierzę gospodarskie	farm animal
+
+고양이	kot	cat
+강아지	piesek / szczeniak	puppy
+개	pies	dog
+쥐	mysz	mouse
+토끼	królik	rabbit
+햄스터	chomik	hamster
+새	ptak	bird
+앵무새	papuga	parrot
+물고기	ryba	fish
+거북이	żółw	turtle
+뱀	wąż	snake
+도마뱀	jaszczurka	lizard
+
+곰	niedźwiedź	bear
+호랑이	tygrys	tiger
+사자	lew	lion
+여우	lis	fox
+늑대	wilk	wolf
+코끼리	słoń	elephant
+기린	żyrafa	giraffe
+원숭이	małpa	monkey
+하마	hipopotam	hippopotamus
+코뿔소	nosorożec	rhinoceros
+표범	lampart	leopard
+
+닭	kura	chicken
+병아리	pisklę	chick
+오리	kaczka	duck
+칠면조	indyk	turkey
+소	krowa	cow
+돼지	świnia	pig
+양	owca	sheep
+염소	koza	goat
+말	koń	horse
+
+벌	pszczoła	bee
+개미	mrówka	ant
+파리	mucha	fly
+모기	komar	mosquito
+나비	motyl	butterfly
+거미	pająk	spider
+매	sokół	falcon
+독수리	orzeł	eagle
+참새	wróbel	sparrow
+비둘기	gołąb	pigeon
+
+고래	wieloryb	whale
+상어	rekin	shark
+해파리	meduza	jellyfish
+문어	ośmiornica	octopus
+게	krab	crab

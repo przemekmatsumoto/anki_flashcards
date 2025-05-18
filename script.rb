@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-
-# Generator kart Anki dla koreańskiego z pełną obsługą Twojego formatu
 input_file = "input.txt"
 output_file = "korean_flashcards/test.csv"
 
@@ -13,17 +10,16 @@ line_counter = 0
 valid_cards = 0
 
 File.open(output_file, "w:utf-8") do |csv|
-  csv.puts '"Front","Back"' # Nagłówek CSV
+  csv.puts '"Front","Back"'
   
   File.foreach(input_file, chomp: true) do |line|
     line_counter += 1
     next if line.empty? || line.strip.empty?
     
-    # Dzielimy linię na części (używając tabulatora)
     parts = line.split("\t")
     
     if parts.size < 3
-      warning = "Linia #{line_counter}: '#{line.strip[0..50]}'..." # Ogranicz długość wyświetlanej linii
+      warning = "Linia #{line_counter}: '#{line.strip[0..50]}'..."
       skipped_lines << warning
       puts "UWAGA: Pomijam linię - nieprawidłowy format: #{warning}"
       next
@@ -33,11 +29,9 @@ File.open(output_file, "w:utf-8") do |csv|
     polish = sanitize(parts[1])
     english = sanitize(parts[2])
     
-    # Formatowanie karty:
     front = "#{polish} (#{english})"
     back = korean
     
-    # Zapis z cudzysłowami i escapowaniem
     csv.puts "\"#{front}\",\"#{back}\""
     valid_cards += 1
   end

@@ -11,6 +11,9 @@ To run this script you need installed ruby ~> 3.3.5
 3. Run script -> ruby script_name.rb
 
 # Requirements 
-input file should contain data in format:
+Input file should contain data in format:
 back front(polish) front(english)
 남편  mąż	        husband
+
+# Korean flashcard catalogue
+This catalogue contains ready to use Korean sets

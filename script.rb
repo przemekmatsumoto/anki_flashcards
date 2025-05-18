@@ -19,9 +19,9 @@ File.open(output_file, "w:utf-8") do |csv|
     parts = line.split("\t")
     
     if parts.size < 3
-      warning = "Linia #{line_counter}: '#{line.strip[0..50]}'..."
+      warning = "Line #{line_counter}: '#{line.strip[0..50]}'..."
       skipped_lines << warning
-      puts "UWAGA: Pomijam linię - nieprawidłowy format: #{warning}"
+      puts "WARNING: Skipping line - invalid format: #{warning}"
       next
     end
     
@@ -38,27 +38,27 @@ File.open(output_file, "w:utf-8") do |csv|
 end
 
 puts "\n--------------------------------------------------"
-puts "SUKCES! Wygenerowano plik: #{output_file}"
-puts "Liczba poprawnych kart: #{valid_cards}"
+puts "SUCCESS! Generated file: #{output_file}"
+puts "Number of valid cards: #{valid_cards}"
 
 if skipped_lines.any?
-  puts "\nOSTRZEŻENIA - POMINIĘTE LINIE (#{skipped_lines.size}):"
+  puts "\nWARNINGS - SKIPPED LINES (#{skipped_lines.size}):"
   skipped_lines.each { |warning| puts " • #{warning}" }
-  puts "Upewnij się, że te linie mają format: koreański\tpolski\tangielski"
+  puts "Make sure these lines follow the format: korean\tpolish\tenglish"
 end
 
-puts "\nINSTRUKCJA IMPORTU DO ANKI:"
-puts "1. Otwórz Anki"
-puts "2. Wybierz 'Import File' z menu głównego"
-puts "3. Znajdź plik '#{output_file}'"
-puts "4. Ustaw opcje importu:"
-puts "   - Type: 'Basic' (lub wybrany przez Ciebie typ)"
-puts "   - Deck: wybierz istniejącą lub utwórz nową talię"
+puts "\nANKI IMPORT INSTRUCTIONS:"
+puts "1. Open Anki"
+puts "2. Select 'Import File' from the main menu"
+puts "3. Locate the file '#{output_file}'"
+puts "4. Set import options:"
+puts "   - Type: 'Basic' (or your preferred type)"
+puts "   - Deck: select existing or create new deck"
 puts "   - Field separator: 'Comma'"
 puts "   - Allow HTML: unchecked"
 puts "   - Fields enclosed by: '\"'"
-puts "5. Upewnij się, że mapowanie pól wygląda tak:"
+puts "5. Ensure field mapping is:"
 puts "   - Front → Front"
 puts "   - Back → Back"
-puts "6. Kliknij 'Import'"
+puts "6. Click 'Import'"
 puts "--------------------------------------------------"

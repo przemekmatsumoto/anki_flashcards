@@ -1,5 +1,5 @@
 input_file = "input.txt"
-output_file = "korean_flashcards/test.csv"
+output_file = "korean_flashcards/pronouns_particles_and_practice_uestions.csv"
 
 def sanitize(text)
   text.to_s.gsub(/"/, '""').strip
